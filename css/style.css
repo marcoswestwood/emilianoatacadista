@@ -21,5 +21,40 @@
 
 header {
     height: 130px;
-    background-color: rgb(204, 231, 204);
+    background-color: rgb(91, 91, 255);
 }
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    list-style: none;
+
+}
+
+.menu a {
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+}
+
+.menu a:hover {
+    font-weight: bold;
+    /* background-color: rgb(255, 250, 250); */
+    color: black;
+    border-radius: 10px;
+}
+  
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+  
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: rgb(4, 40, 107);
+    margin: 8px;
+    transition: 0.3s;
+  }
